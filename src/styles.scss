@@ -1,15 +1,19 @@
-$green: #12e177;
-$orange: #ffc72a;
-$blue: #4c43d4;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
+$green: #12e177;
+$orange: #ffa500;
+$primary-light-color: #550527;
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: $blue;
+  font-family: "Open Sans", sans-serif;
+  background-color: $primary-light-color;
   color: #fff;
   padding: 0;
   margin: 0;
 }
-
+h1,
+h3 {
+  margin-bottom: 0;
+}
 button {
   background: none;
   border: none;
@@ -83,7 +87,7 @@ button {
   padding: 12px 18px;
   margin-top: 25px;
   transition: all 0.2s;
-  background-color: $blue;
+  background-color: $primary-light-color;
   box-shadow: 0px 0px 0px 1px $orange;
   &.active {
     background-color: $orange;
